@@ -1,4 +1,4 @@
-# CRUD with MongoDB
+# Sample CRUD with MongoDB
 
 # Endpoint list
 - GET Method
