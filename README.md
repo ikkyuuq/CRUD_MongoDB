@@ -4,7 +4,7 @@
 - GET Method
   - ``` http://localhost:5000/students ```
     ![image](https://github.com/ikkyuuq/CRUD_MongoDB/assets/67925388/716d38a2-0a82-452d-8cbc-9161034093b5)
-  - ``` bash http://localhost:5000/students/<std_id> ```
+  - ``` http://localhost:5000/students/<std_id> ```
     ![image](https://github.com/ikkyuuq/CRUD_MongoDB/assets/67925388/3d898150-5c25-4599-9d99-3e9d738777d5)
 
 - POST Method
