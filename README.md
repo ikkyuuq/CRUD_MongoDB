@@ -2,6 +2,8 @@
 
 # Endpoint list
 - GET Method
+  - ``` http://localhost:5000/ ```
+    ![image](https://github.com/ikkyuuq/CRUD_MongoDB/assets/67925388/17cbdc1a-33cc-43b4-a6bf-7f99f573fd52)
   - ``` http://localhost:5000/students ```
     ![image](https://github.com/ikkyuuq/CRUD_MongoDB/assets/67925388/716d38a2-0a82-452d-8cbc-9161034093b5)
   - ``` http://localhost:5000/students/<std_id> ```
