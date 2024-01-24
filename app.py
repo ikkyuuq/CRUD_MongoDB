@@ -1,12 +1,16 @@
 from flask import Flask, request, jsonify
 from flask_basicauth import BasicAuth
 from db import student_collection, major_collection
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 basic_auth = BasicAuth(app)
 
-app.config['BASIC_AUTH_USERNAME'] = 'admin'
-app.config['BASIC_AUTH_PASSWORD'] = 'admin'
+app.config['BASIC_AUTH_USERNAME'] = os.getenv('BASIC_AUTH_USERNAME')
+app.config['BASIC_AUTH_PASSWORD'] = os.getenv('BASIC_AUTH_PASSWORD')
 
 @app.get('/')
 def welcome():
